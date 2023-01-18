@@ -12,3 +12,18 @@ Double check you're using the right user account and the correct AWS account
 ```
 aws sts get-caller-identity
 ```
+
+Deploy / Update the stack
+```
+pulumi up
+```
+
+Refresh Local view
+```
+pulumi refresh
+```
+
+Destroy the stack
+```
+pulumi destroy
+```
